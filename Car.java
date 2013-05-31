@@ -12,6 +12,8 @@ package HashMapDemo;
 public class Car {
   private String name, company;
         
+        
+        /*hashCode & equals methods are to be commented for first run to see the difference*/
         @Override
         public boolean equals(Object o) {
         Car m = (Car) o;
